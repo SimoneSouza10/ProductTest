@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(180, 139, 219);
+  height: 200px;
+  padding: 0 30px;
+  font-style: initial;
+}
+
+header > img {
+  width: 150px;
+  height: 150px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.titulo {
+  font-size: 90px;
+  text-decoration: none;
+  color: black;
+}
+
+.contatos {
+  display: flex;
+}
+
+.contato {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.contato:hover {
+  font-size: 50px;
+}
+
+.contato:active {
+  border: 1px solid black;
+}
+
+.separator {
+  width: 3px;
+  height: 40px;
+  /* background-color: black; */
+  margin: 0 20px;
+  background-color: white;
+}

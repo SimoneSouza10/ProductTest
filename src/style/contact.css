@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(180, 139, 219);
+  height: 200px;
+  padding: 0 30px;
+  font-style: initial;
+}
+
+header > img {
+  width: 150px;
+  height: 150px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.titulo {
+  font-size: 90px;
+  text-decoration: none;
+  color: black;
+}
+
+.contatos {
+  display: flex;
+}
+
+.contato {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.contato:hover {
+  font-size: 50px;
+}
+
+.contato:active {
+  border: 1px solid black;
+}
+
+.separator {
+  width: 3px;
+  height: 40px;
+  /* background-color: black; */
+  margin: 0 20px;
+  background-color: white;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+article > img {
+  width: 40%;
+  border-radius: 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  height: 350px;
+  /* border: 1px solid black; */
+  margin-top: 100px;
+  background-color: rgb(210, 189, 230);
+  border-radius: 20px;
+}
+
+.texto {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.compras {
+  padding-bottom: 30px;
+}
+
+.central {
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
+}
+
+.produto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding-top: 40px;
+    margin-top: 100px; */
+  /* background-color: white; */
+}
+
+.produtoBeleza {
+  width: 300px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.bebida {
+  width: 300px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.comida {
+  width: 300px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.icones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding-top: 40px;
+    margin-top: 100px; */
+  /* width: 300px;
+    height: 300px; */
+}
